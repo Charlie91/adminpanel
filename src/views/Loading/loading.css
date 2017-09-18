@@ -1,0 +1,24 @@
+.loading_process{
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.47);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.load_image {
+  width: 170px;
+  height: 100px;
+  left: 50%;
+  top: 50%;
+  position: fixed;
+}
+
+.load_title{
+  left: 50%;
+  top: 65%;
+  position: fixed;
+  color: #FFF;
+}

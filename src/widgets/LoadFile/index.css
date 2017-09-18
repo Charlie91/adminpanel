@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+#form{
+  margin-top: 1%;
+}
+form input, form select {
+    height: 30px;
+}
+button[disabled], html input[disabled] {
+    cursor: default;
+    color: grey;
+}
+.download-link::before {
+    content: url(http://25.media.tumblr.com/avatar_ad34ec5d626c_40.png);
+    position: relative;
+    top: 7px;
+    right: 5px;
+}

@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+.download-link{
+  margin-top:20px;
+  text-align: left;
+}
+.download-link::before{
+  content:url('http://25.media.tumblr.com/avatar_ad34ec5d626c_40.png');
+}
+.loader_wrapper{
+  width: 100%;
+  height: 30px;
+  border: 1px solid #cccccc;
+  position: relative;
+  display: block;
+  text-align: left;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 10px;
+  background: #eeeeee;
+}
+.progress-bar{
+  width:100px;
+  padding-left: 0.3%;
+}
+.error{
+  color:red;
+  margin-top:10px
+}
+.form-group{
+  text-align: left;
+}
+.form-group label{
+  margin-top: 15px;
+}
+input[type="submit"]{
+  margin-top: 15px;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+span#loader-indicator {
+    color: #fff;
+    z-index: 10000;
+    margin: 0 auto;
+    position: absolute;
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-shadow: 0px 1px 1px #000000, 1px 0px 1px #000000, 0px 1px 1px #000000;
+    height:100%;
+    font-size:18px;
+}
+.loadfile .form-group {
+    text-align: left;
+}
+.loadfile select {
+    height: 34px!important;
+    border-radius: 5px!important;
+}
