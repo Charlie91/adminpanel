@@ -1,0 +1,14 @@
+$body:black;
+
+
+
+.registration-form{
+  width:30%;
+  margin: auto;
+  input[type="password"]:first-child{
+    margin-bottom:10px;
+  }
+  label{
+    font-weight:400;
+  }
+}

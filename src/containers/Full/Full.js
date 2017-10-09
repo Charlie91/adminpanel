@@ -9,6 +9,8 @@ import Footer from '../../components/Footer/';
 import MonitoringWidget from './../../widgets/MonitoringWidget/App.js';
 import LoadFile from './../../widgets/LoadFile/App.js';
 import Dashboard from '../../views/Dashboard/';
+import Table from './../../widgets/TableData/App.js';
+
 
 class Full extends Component {
   render() {
@@ -21,6 +23,7 @@ class Full extends Component {
             <Breadcrumb />
             <Container fluid>
               <Switch>
+                  <Route path="/table" name="Dashboard" component={Table}/>
                 <Route path="/dashboard" name="Dashboard" component={Dashboard}/>
                 <Route path="/monitoring" name="Monitoring" component={MonitoringWidget}/>
                 <Route path="/loadfile" name="Monitoring" component={LoadFile}/>

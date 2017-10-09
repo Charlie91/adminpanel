@@ -93,3 +93,14 @@ $sidebar-header-height: 200px;
     }
   }
 }
+
+.form-group{
+  label{
+    position:relative
+  }
+}
+
+.hintMessage{
+  position: relative;
+  background: #bfbfff;
+}

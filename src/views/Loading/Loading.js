@@ -1,5 +1,5 @@
 import React from 'react';
-import './loading.css';
+import './loading.scss';
 import Image from './Loading-circle.gif';
 
 const Loading = (props) => {

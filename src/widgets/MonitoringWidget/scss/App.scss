@@ -181,14 +181,15 @@ td.contacts_column {
 td.contacts_column {
     overflow: visible!important;
 }
+.react-bs-container-body{
+  overflow: visible;
+}
 span.contactItem{
-  background-color: #f2f9fc;
-  border-radius: 0;
-  border: 1px solid #c9e6f2;
   color: #fff;
   display: inline-block;
   font-size: 0.9em;
   margin-left: 5px;
+  cursor:pointer;
   margin-top: 5px;
   vertical-align: top;
   padding: 3px;
@@ -241,7 +242,6 @@ span.contactItem{
 .validation_error{
   color:red
 }
-
 /*.contacts_column::after{
   content: '';
   background: url(http://iconizer.net/files/Bright/thumb/128/pen_write_edit.png);
